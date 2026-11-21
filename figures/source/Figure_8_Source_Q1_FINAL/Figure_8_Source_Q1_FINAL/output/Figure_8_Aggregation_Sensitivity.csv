@@ -1,0 +1,14 @@
+,share_rowwise_grouped_pct(plotted),rank_rowwise,share_sum_of_encoded_mean_abs_pct,rank_sum_encoded,rank_change
+NDVI,27.683235,1,26.550669,1,0
+LULC,22.486098,2,24.848867,2,0
+Elevation,15.221978,3,14.599223,3,0
+Rainfall,6.101181,4,5.851583,4,0
+Slope,4.842485,5,4.644391,5,0
+Distance_Road,4.311629,6,4.135230,6,0
+TWI,4.109763,7,3.941642,7,0
+Distance_River,3.781370,8,3.626680,8,0
+Tangential_Curvature,3.741067,9,3.588029,9,0
+Drainage_Density,2.573390,10,2.468111,11,1
+Profile_Curvature,2.219155,11,2.128370,12,1
+Aspect,2.183439,12,2.711826,10,-2
+HSG,0.745209,13,0.905381,13,0

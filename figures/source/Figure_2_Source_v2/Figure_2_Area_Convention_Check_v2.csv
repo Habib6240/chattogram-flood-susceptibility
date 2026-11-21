@@ -1,0 +1,5 @@
+Event,Valid_km2_cellcount,Valid_km2_AOIfraction_weighted,Valid_km2_CSV,Weighted_minus_CSV_km2,Flood_km2_cellcount,Flood_km2_AOIfraction_weighted,Flood_km2_CSV,Flood_pct_cellcount,Flood_pct_weighted,Flood_pct_CSV
+2019,4024.69,4010.83,4010.62,0.2,602.32,602.1,602.29,14.966,15.012,15.017
+2021,4044.07,4029.48,4029.39,0.09,491.9,491.61,491.77,12.163,12.2,12.205
+2023,4044.06,4029.47,4029.38,0.09,266.27,266.01,266.14,6.584,6.602,6.605
+2026,4044.41,4029.82,4029.72,0.09,468.97,468.81,469.02,11.596,11.634,11.639

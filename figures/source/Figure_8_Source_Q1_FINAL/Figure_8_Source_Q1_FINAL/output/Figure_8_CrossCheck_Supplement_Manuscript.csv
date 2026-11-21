@@ -1,0 +1,131 @@
+Source,Factor,Quantity,Source_value,Figure_value,Match
+S3,Rainfall,AHP_weight,0.2311090242292119,0.231109024229212,True
+S3,Rainfall,AHP_rank,1,1,True
+S3,Rainfall,FAHP_weight,0.2212837605544375,0.221283760554437,True
+S3,Rainfall,FAHP_rank,1,1,True
+S3,Rainfall,ANP_weight,0.1345160043620178,0.134516004362018,True
+S3,Rainfall,ANP_rank,4,4,True
+S3,Elevation,AHP_weight,0.181866493121561,0.181866493121561,True
+S3,Elevation,AHP_rank,2,2,True
+S3,Elevation,FAHP_weight,0.1811117219501209,0.181111721950121,True
+S3,Elevation,FAHP_rank,2,2,True
+S3,Elevation,ANP_weight,0.1764258322351922,0.176425832235192,True
+S3,Elevation,ANP_rank,2,2,True
+S3,Slope,AHP_weight,0.1415113769013037,0.141511376901304,True
+S3,Slope,AHP_rank,3,3,True
+S3,Slope,FAHP_weight,0.1431053707448042,0.143105370744804,True
+S3,Slope,FAHP_rank,3,3,True
+S3,Slope,ANP_weight,0.1390471834438347,0.139047183443835,True
+S3,Slope,ANP_rank,3,3,True
+S3,Drainage density,AHP_weight,0.1094998700765818,0.109499870076582,True
+S3,Drainage density,AHP_rank,4,4,True
+S3,Drainage density,FAHP_weight,0.1113096577456627,0.111309657745663,True
+S3,Drainage density,FAHP_rank,4,4,True
+S3,Drainage density,ANP_weight,0.2619898212665524,0.261989821266552,True
+S3,Drainage density,ANP_rank,1,1,True
+S3,Distance to river,AHP_weight,0.0847011984787238,0.0847011984787238,True
+S3,Distance to river,AHP_rank,5,5,True
+S3,Distance to river,FAHP_weight,0.0865828716144471,0.0865828716144471,True
+S3,Distance to river,FAHP_rank,5,5,True
+S3,Distance to river,ANP_weight,0.0867731490122148,0.0867731490122148,True
+S3,Distance to river,ANP_rank,6,6,True
+S3,TWI,AHP_weight,0.0653402495697084,0.0653402495697084,True
+S3,TWI,AHP_rank,6,6,True
+S3,TWI,FAHP_weight,0.0668335399435871,0.0668335399435871,True
+S3,TWI,FAHP_rank,6,6,True
+S3,TWI,ANP_weight,0.1180018140670417,0.118001814067042,True
+S3,TWI,ANP_rank,5,5,True
+S3,LULC,AHP_weight,0.0503465610052095,0.0503465610052095,True
+S3,LULC,AHP_rank,7,7,True
+S3,LULC,FAHP_weight,0.0515893432403828,0.0515893432403828,True
+S3,LULC,FAHP_rank,7,7,True
+S3,LULC,ANP_weight,0.0276306051482195,0.0276306051482195,True
+S3,LULC,ANP_rank,7,7,True
+S3,HSG,AHP_weight,0.0388358588429803,0.0388358588429803,True
+S3,HSG,AHP_rank,8,8,True
+S3,HSG,FAHP_weight,0.0397514474403382,0.0397514474403382,True
+S3,HSG,FAHP_rank,8,8,True
+S3,HSG,ANP_weight,0.0139466509370535,0.0139466509370535,True
+S3,HSG,ANP_rank,9,9,True
+S3,NDVI,AHP_weight,0.0298925135933981,0.0298925135933981,True
+S3,NDVI,AHP_rank,9,9,True
+S3,NDVI,FAHP_weight,0.0306300504930618,0.0306300504930618,True
+S3,NDVI,FAHP_rank,9,9,True
+S3,NDVI,ANP_weight,0.0194505901885772,0.0194505901885772,True
+S3,NDVI,ANP_rank,8,8,True
+S3,Distance to road,AHP_weight,0.0231976023965592,0.0231976023965592,True
+S3,Distance to road,AHP_rank,10,10,True
+S3,Distance to road,FAHP_weight,0.023691160461373,0.023691160461373,True
+S3,Distance to road,FAHP_rank,10,10,True
+S3,Distance to road,ANP_weight,0.0015953006192555,0.0015953006192555,True
+S3,Distance to road,ANP_rank,12,12,True
+S3,Profile curvature,AHP_weight,0.0179499049243712,0.0179499049243712,True
+S3,Profile curvature,AHP_rank,11,11,True
+S3,Profile curvature,FAHP_weight,0.0183249327924307,0.0183249327924307,True
+S3,Profile curvature,FAHP_rank,11,11,True
+S3,Profile curvature,ANP_weight,0.0110014410357366,0.0110014410357366,True
+S3,Profile curvature,ANP_rank,10,10,True
+S3,Tangential curvature,AHP_weight,0.0141653321150144,0.0141653321150144,True
+S3,Tangential curvature,AHP_rank,12,12,True
+S3,Tangential curvature,FAHP_weight,0.0143242412004515,0.0143242412004515,True
+S3,Tangential curvature,FAHP_rank,12,12,True
+S3,Tangential curvature,ANP_weight,0.0083459810987633,0.0083459810987633,True
+S3,Tangential curvature,ANP_rank,11,11,True
+S3,Aspect,AHP_weight,0.011584014745376,0.011584014745376,True
+S3,Aspect,AHP_rank,13,13,True
+S3,Aspect,FAHP_weight,0.011461901818902,0.011461901818902,True
+S3,Aspect,FAHP_rank,13,13,True
+S3,Aspect,ANP_weight,0.0012756265855403,0.0012756265855403,True
+S3,Aspect,ANP_rank,13,13,True
+S16,NDVI,mean_abs,1.095372796058655,1.09537279605865,True
+S16,NDVI,share_pct,27.68323502408698,27.683235024087,True
+S16,NDVI,rank,1,1,True
+S16,LULC,mean_abs,0.8897320032119751,0.889732003211975,True
+S16,LULC,share_pct,22.4860981046766,22.4860981046766,True
+S16,LULC,rank,2,2,True
+S16,Elevation,mean_abs,0.6023046374320984,0.602304637432098,True
+S16,Elevation,share_pct,15.22197821063783,15.2219782106378,True
+S16,Elevation,rank,3,3,True
+S16,Rainfall,mean_abs,0.2414121031761169,0.241412103176117,True
+S16,Rainfall,share_pct,6.101181272650227,6.10118127265023,True
+S16,Rainfall,rank,4,4,True
+S16,Slope,mean_abs,0.1916079074144363,0.191607907414436,True
+S16,Slope,share_pct,4.84248536435563,4.84248536435563,True
+S16,Slope,rank,5,5,True
+S16,Distance to road,mean_abs,0.170602947473526,0.170602947473526,True
+S16,Distance to road,share_pct,4.31162934455302,4.31162934455302,True
+S16,Distance to road,rank,6,6,True
+S16,TWI,mean_abs,0.1626154780387878,0.162615478038788,True
+S16,TWI,share_pct,4.109762916607034,4.10976291660703,True
+S16,TWI,rank,7,7,True
+S16,Distance to river,mean_abs,0.1496216058731079,0.149621605873108,True
+S16,Distance to river,share_pct,3.781370228446649,3.78137022844665,True
+S16,Distance to river,rank,8,8,True
+S16,Tangential curvature,mean_abs,0.1480268836021423,0.148026883602142,True
+S16,Tangential curvature,share_pct,3.741066989600354,3.74106698960035,True
+S16,Tangential curvature,rank,9,9,True
+S16,Drainage density,mean_abs,0.1018241196870803,0.10182411968708,True
+S16,Drainage density,share_pct,2.57338966839493,2.57338966839493,True
+S16,Drainage density,rank,10,10,True
+S16,Profile curvature,mean_abs,0.0878077372908592,0.0878077372908592,True
+S16,Profile curvature,share_pct,2.219155192736755,2.21915519273676,True
+S16,Profile curvature,rank,11,11,True
+S16,Aspect,mean_abs,0.0863945111632347,0.0863945111632347,True
+S16,Aspect,share_pct,2.183438885764389,2.18343888576439,True
+S16,Aspect,rank,12,12,True
+S16,HSG,mean_abs,0.0294864904135465,0.0294864904135465,True
+S16,HSG,share_pct,0.7452087974896057,0.745208797489606,True
+S16,HSG,rank,13,13,True
+Manuscript v3 Results 3.6,NDVI,share_pct_text,27.68,27.68,True
+Manuscript v3 Results 3.6,LULC,share_pct_text,22.49,22.49,True
+Manuscript v3 Results 3.6,Elevation,share_pct_text,15.22,15.22,True
+Manuscript v3 Results 3.6,Rainfall,share_pct_text,6.10,6.10,True
+Manuscript v3 Results 3.6,Slope,share_pct_text,4.84,4.84,True
+Manuscript v3 Results 3.6,Distance to road,share_pct_text,4.31,4.31,True
+Manuscript v3 Results 3.6,TWI,share_pct_text,4.11,4.11,True
+Manuscript v3 Results 3.6,Distance to river,share_pct_text,3.78,3.78,True
+Manuscript v3 Results 3.6,Tangential curvature,share_pct_text,3.74,3.74,True
+Manuscript v3 Results 3.6,Drainage density,share_pct_text,2.57,2.57,True
+Manuscript v3 Results 3.6,Profile curvature,share_pct_text,2.22,2.22,True
+Manuscript v3 Results 3.6,Aspect,share_pct_text,2.18,2.18,True
+Manuscript v3 Results 3.6,HSG,share_pct_text,0.75,0.75,True

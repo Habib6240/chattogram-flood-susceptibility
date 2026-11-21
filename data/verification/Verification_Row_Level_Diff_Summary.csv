@@ -1,0 +1,8 @@
+field,max_abs_diff,n_identical_float32,n_total,tolerance
+Predicted probability vs stored CSV,0.0,20000,20000,1e-05
+Predicted probability vs stored NPZ,0.0,20000,20000,1e-05
+SHAP bias vs stored CSV,0.0,20000,20000,0.0001
+SHAP bias vs stored NPZ,0.0,20000,20000,0.0001
+"25 encoded SHAP contributions (20,000 x 25) vs stored NPZ",0.0,500000,500000,0.0001
+"13 grouped SHAP (20,000 x 13) vs stored NPZ",0.0,260000,260000,0.0001
+13 grouped SHAP vs stored CSV columns,0.0,260000,260000,0.0001

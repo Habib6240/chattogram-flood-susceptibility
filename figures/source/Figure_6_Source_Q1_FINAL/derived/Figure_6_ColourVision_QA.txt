@@ -1,0 +1,12 @@
+normal | (a) YlOrRd: L* 99 -> 26, monotonic decrease = True
+normal | (b) YlGnBu: L* 99 -> 13, monotonic decrease = True
+normal | (c) diverging 9 classes: L* 38, 56, 75, 89, 94, 89, 73, 52, 35; min adjacent dE76 = 10.3; zero-class vs +-1 dE76 = 10.3
+deuteranopia | (a) YlOrRd: L* 98 -> 30, monotonic decrease = True
+deuteranopia | (b) YlGnBu: L* 99 -> 14, monotonic decrease = True
+deuteranopia | (c) diverging 9 classes: L* 36, 54, 74, 89, 94, 90, 75, 56, 39; min adjacent dE76 = 10.1; zero-class vs +-1 dE76 = 10.1
+protanopia | (a) YlOrRd: L* 98 -> 19, monotonic decrease = True
+protanopia | (b) YlGnBu: L* 98 -> 16, monotonic decrease = True
+protanopia | (c) diverging 9 classes: L* 41, 58, 77, 90, 94, 88, 69, 46, 26; min adjacent dE76 = 7.9; zero-class vs +-1 dE76 = 7.9
+greyscale | (a) YlOrRd: L* 99 -> 26, monotonic decrease = True
+greyscale | (b) YlGnBu: L* 99 -> 13, monotonic decrease = True
+greyscale | (c) diverging 9 classes: L* 38, 56, 75, 89, 94, 89, 73, 52, 35; min adjacent dE76 = 4.5; zero-class vs +-1 dE76 = 4.5

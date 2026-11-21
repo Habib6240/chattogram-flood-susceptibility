@@ -1,0 +1,12 @@
+# Pinned only where the version is evidenced in the archive (see Software_Environment.md).
+xgboost==3.4.1
+scikit-learn==1.9.1
+numpy>=2.4,<3
+# Not recorded at training time; unpinned.
+scipy
+pandas
+matplotlib
+joblib
+tifffile
+openpyxl
+# GDAL Python bindings (osgeo) are required by B09B; install via conda-forge or system GDAL.

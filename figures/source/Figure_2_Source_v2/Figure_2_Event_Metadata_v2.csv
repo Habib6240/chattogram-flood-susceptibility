@@ -1,0 +1,5 @@
+Event,Event_ID,Pre_event_date,Post_event_observation_date,Platform,Pass,Relative_orbit,Interval_days,Observation_status
+2019,E03_2019_Jul,2019-07-02,2019-07-14,Sentinel-1A,Ascending,41,12,DURING_EVENT
+2021,E04_2021_Jul,2021-07-17,2021-07-29,Sentinel-1A,Descending,77,12,DURING_EVENT
+2023,E05_2023_Aug,2023-07-31,2023-08-12,Sentinel-1A,Descending,77,12,POST_PEAK_PERSISTENT_INUNDATION
+2026,E07_2026_Jul,2026-06-28,2026-07-10,Sentinel-1D,Descending,77,12,DURING_EVENT

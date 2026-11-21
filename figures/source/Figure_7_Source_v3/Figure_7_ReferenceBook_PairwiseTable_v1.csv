@@ -1,0 +1,16 @@
+Comparison,Pearson_r,Percentile_class_exact,Top20_Jaccard
+RF vs XGBoost,0.963,0.787,0.861
+RF vs ML_Consensus,0.989,0.874,0.933
+RF vs AHP,0.617,0.458,0.364
+RF vs FAHP,0.623,0.465,0.376
+RF vs ANP,0.603,0.458,0.374
+XGBoost vs ML_Consensus,0.992,0.909,0.923
+XGBoost vs AHP,0.666,0.469,0.372
+XGBoost vs FAHP,0.672,0.476,0.384
+XGBoost vs ANP,0.651,0.465,0.381
+ML_Consensus vs AHP,0.649,0.467,0.369
+ML_Consensus vs FAHP,0.655,0.474,0.381
+ML_Consensus vs ANP,0.634,0.465,0.379
+AHP vs FAHP,1.000,0.977,0.962
+AHP vs ANP,0.949,0.656,0.548
+FAHP vs ANP,0.954,0.668,0.566

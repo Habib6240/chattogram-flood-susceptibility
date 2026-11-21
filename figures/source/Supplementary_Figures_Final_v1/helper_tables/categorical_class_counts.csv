@@ -1,0 +1,13 @@
+Factor,Code,Class,Cells
+LULC,10,Tree cover,3045699
+LULC,20,Shrubland,365
+LULC,30,Grassland,105680
+LULC,40,Cropland,1327834
+LULC,50,Built-up,152670
+LULC,60,Bare / sparse vegetation,56871
+LULC,90,Herbaceous wetland,2557
+LULC,95,Mangroves,30540
+HSG,3,C,2380425
+HSG,4,D,41713
+HSG,13,C/D,2238477
+HSG,14,D/D,61601

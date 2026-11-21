@@ -1,0 +1,58 @@
+{
+ "pdf_vs_png_pixel_corr": 0.9934,
+ "svg_vs_png_pixel_corr": 0.9989,
+ "cvd": {
+  "normal": {
+   "min_dE76": 26.4,
+   "pairs": {
+    "AHP-FAHP": 26.4,
+    "AHP-ANP": 70.1,
+    "AHP-SHAP": 114.6,
+    "FAHP-ANP": 59.5,
+    "FAHP-SHAP": 113.6,
+    "ANP-SHAP": 102.4
+   }
+  },
+  "protan": {
+   "min_dE76": 24.8,
+   "pairs": {
+    "AHP-FAHP": 24.8,
+    "AHP-ANP": 58.2,
+    "AHP-SHAP": 91.9,
+    "FAHP-ANP": 51.7,
+    "FAHP-SHAP": 88.7,
+    "ANP-SHAP": 37.2
+   }
+  },
+  "deutan": {
+   "min_dE76": 24.9,
+   "pairs": {
+    "AHP-FAHP": 24.9,
+    "AHP-ANP": 55.7,
+    "AHP-SHAP": 108.4,
+    "FAHP-ANP": 48.9,
+    "FAHP-SHAP": 101.1,
+    "ANP-SHAP": 53.3
+   }
+  },
+  "tritan": {
+   "min_dE76": 16.1,
+   "pairs": {
+    "AHP-FAHP": 24.8,
+    "AHP-ANP": 17.0,
+    "AHP-SHAP": 101.6,
+    "FAHP-ANP": 16.1,
+    "FAHP-SHAP": 113.4,
+    "ANP-SHAP": 108.2
+   }
+  }
+ },
+ "luminance_L": {
+  "AHP": 45.97056116194996,
+  "FAHP": 69.8244989213723,
+  "ANP": 57.74126426252623,
+  "SHAP": 54.19194073695304
+ },
+ "note": "Series are also distinguished by marker shape (circle, square, triangle, diamond) and by row offset, so colour is not the sole carrier.",
+ "aggregation_sensitivity_rank_changes": 3
+}

@@ -1,0 +1,25 @@
+[PASS] 1-3. all five rasters: 4233 x 2825, 30 m, EPSG:32646, origins equal within 0.01 m max origin offset 4.04e-05 m
+[PASS] 4. common valid cells = 4,722,216 4,722,216
+[PASS] 5. no mask==1 cell is missing/nodata in either continuous surface 
+[PASS] 5b. no continuous value outside the mask domain is valid-looking beyond mask? (informational: cells with data but mask==0) ML 0; FAHP 0
+[PASS] 6. supplied class rasters hold only 1-5 on the valid domain 
+[PASS] 6b. percentile classes are 1-5 and equal-count (<= 3 cells) 
+[PASS] 7. derived D raster equals C(ML) - C(FAHP) for every valid cell (4,722,216 cells) 
+[PASS] 8. D within -4..+4 
+[PASS] 7b. derived class rasters equal independent classes; D = difference of the saved class rasters 
+[PASS] 9. same / ML higher / FAHP higher computed same 47.3576% (2,236,329); ML higher 27.7963% (1,312,601); FAHP higher 24.8461% (1,173,286)
+[PASS] 10. locked statistics reproduced: r 0.655320, exact 47.3576%, within +/-1 88.1979%, Jaccard 0.381276 r 0.655320; exact 47.3576; within1 88.1979; J 0.381276
+[PASS] 10b. supplied common-score class rasters give 47.2245% (Supplement Table S15), i.e. they are NOT the locked percentile-class system 47.2245%
+[PASS] 9b. summary JSON agrees with the independent derivation 
+[PASS] 10c. D distribution equals Supplement Table S15 (0.03, 1.44, 5.27, 18.10, 47.36, 22.74, 4.82, 0.24, 0.00; ML higher 27.80%, FAHP higher 24.85%) 
+[PASS] 13. AOI alignment: >= 99.9% of 300,000 random valid-cell centres fall inside the AOI polygon (projected EPSG:32646) 100.000%
+[PASS] 11. no internal stage/file codes in figure text []
+[PASS] 12. no predictive-accuracy / superiority / error / failure wording (only the negated "not predictive accuracy") 
+[PASS] 12b. required colourbar labels present verbatim 
+[PASS] 12c. panel labels (a)(b)(c) and titles present 
+[PASS] 12d. separate-scale statement present 
+[PASS] 4b. statistics never use display arrays or stretched values (r, classes, breaks, Jaccard computed from m/f; stretch only in Normalize()) 
+[PASS] 2b. default class system in the plotting script is percentile (locked); supplied classes only via explicit --classes supplied 
+[PASS] 3. exactly one scale bar and one north arrow in the figure text (one "20 km", one "N") 
+[PASS] 14. no raster values altered for aesthetics: display arrays are 2x2 block means (continuous) / nearest source cell (classes) of the unmodified rasters; colour stretch 2nd-98th percentile of the full valid domain by construction (see make_figure6_q1.py)
+TOTAL FAILS: 0

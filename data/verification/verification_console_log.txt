@@ -1,0 +1,72 @@
+==============================================================================
+FIGURE 8 - NATIVE TREESHAP VERIFICATION (archived model; NO retraining)
+==============================================================================
+Start: 20261101_080806
+Python 3.12.13 | Windows-11-10.0.26300-SP0
+numpy 2.4.6
+sklearn 1.9.1
+joblib 1.6.0
+xgboost 3.4.1
+pandas 3.0.3
+
+SHA-256 of inputs (before):
+  B04U       b705eef0585c9b94b28ee41b8dddebd5b767bc241850801b355d53e6f8bd746e  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\02B_ML_Dataset_UrbanAware\BUET_B04U_ML_Master_150m.npz
+  B06        e0ad0c129598b700ef614e1adde2c6950829b876fefa3affeaca2fc4bbb4a7b2  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\04_Spatial_CV\BUET_B06_5km_Block_Spatial_Folds.csv
+  MODEL      730d6b353febe69a8529090b4b4005b54d1de1b6fd73341063b3cf5ad8041df5  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_XGB_FullComposite_Model.joblib
+  PRE        22f0fec3fd7b578a41bdecb85d3188707cc04637245affdf91c33caa0043079c  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_XGB_FullComposite_Preprocessor.joblib
+  SAMPLE_CSV 1c909c58e93c79cc2a7f841c77b48e6bcc2f31efb5dfcf0a9a066343a01bfefe  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_XGB_SHAP_Explanation_Sample.csv
+  SAMPLE_NPZ 726952924c49484abdf936b283b6a7d31f10fc23b56c473762de8a8c8189a8a8  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_XGB_SHAP_Explanation_Sample.npz
+  GLOBAL     4df6b8f7876bff7f1a2860db5aef75360c92060dff09ae9a1d9fd4be189f068f  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv
+  ENCODED    d51dea0929f2601ade1d9ea08bd61c48d7c81aee8e68a36036ad919fd1a071f4  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_XGB_SHAP_Encoded_Feature_Importance.csv
+  QC         4659bf4a1547b3d582a5e4c880c6982abf4c42a54993e9b89b21c91d956e1ee0  D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06B_Explainability_UrbanAware\BUET_B08U_SHAP_QC.csv
+[PASS] I1 input files identical (SHA-256) to the copies audited by the reviewer | value=0 | tol=0
+
+Valid rows 169,900 | flood 40,663 | non-flood 129,237
+[PASS] A1 valid rows equal original QC / documented count | value=0 | tol=0
+[PASS] A2 flood / non-flood counts equal documented Table S11 counts | value=0 | tol=0
+[PASS] B1 every valid-row block has a fold in the B06 file | value=0 | tol=0
+Rows per fold: {1: 17374, 2: 33775, 3: 34862, 4: 45552, 5: 38337}
+[PASS] C1 sample size 20,000 (4,000 per fold) | value=20000
+[PASS] C2 sample indices and ordering identical to stored Explain_Index | value=0 | tol=0
+[PASS] C3 coordinates identical to stored CSV | value=0.000000e+00 | tol=0.0
+[PASS] C4 fold assignment identical | value=0 | tol=0
+[PASS] C5 observed labels identical (CSV and NPZ) | value=0 | tol=0
+
+Loading ARCHIVED model/preprocessor and running native TreeSHAP (no fit) ...
+[PASS] D1 contribution matrix shape 20,000 x 26 (25 features + bias) | value=0 | tol=0
+[PASS] D2 encoded dimension equals 25 and equals model feature count | value=0 | tol=0
+[PASS] D3 encoded feature names (from archived preprocessor categories) equal original encoded names | value=0 | tol=0
+[PASS] D4 archived hyperparameters equal documented settings | value=0 | tol=0
+[PASS] D5 scale_pos_weight equals NEG/POS of the valid rows | value=0.000000e+00 | tol=1e-09
+[PASS] D6 number of trees equals 600 | value=0 | tol=0
+[INFO] D7 XGBoost runtime version equals archive version string (informational) | value=0
+[PASS] E1 additivity: |margin - (sum of contributions + bias)|, 20,000 rows, original definition | value=1.811981e-05 | tol=0.0001
+[PASS] E2 sigmoid(margin) = predicted probability, 20,000 rows, original definition | value=1.192093e-07 | tol=1e-05
+[PASS] E3 additivity re-evaluated in float64 | value=1.793373e-05 | tol=0.0001
+[INFO] E4 regenerated margin error versus original recorded QC value (informational) | value=1.811981e-05
+[INFO] E5 regenerated probability error versus original recorded QC value (informational) | value=1.192093e-07
+[INFO] E6 thread-order noise: max |contrib(default threads) - contrib(1 thread)| (informational; empirical basis for tolerances) | value=0.000000e+00
+[PASS] G1 Predicted probability vs stored CSV: max |regenerated - stored|  (identical float32 values: 20000/20000) | value=0.000000e+00 | tol=1e-05
+[PASS] G2 Predicted probability vs stored NPZ: max |regenerated - stored|  (identical float32 values: 20000/20000) | value=0.000000e+00 | tol=1e-05
+[PASS] G3 SHAP bias vs stored CSV: max |regenerated - stored|  (identical float32 values: 20000/20000) | value=0.000000e+00 | tol=0.0001
+[PASS] G4 SHAP bias vs stored NPZ: max |regenerated - stored|  (identical float32 values: 20000/20000) | value=0.000000e+00 | tol=0.0001
+[PASS] G5 25 encoded SHAP contributions (20,000 x 25) vs stored NPZ: max |regenerated - stored|  (identical float32 values: 500000/500000) | value=0.000000e+00 | tol=0.0001
+[PASS] G6 13 grouped SHAP (20,000 x 13) vs stored NPZ: max |regenerated - stored|  (identical float32 values: 260000/260000) | value=0.000000e+00 | tol=0.0001
+[PASS] G7 13 grouped SHAP vs stored CSV columns: max |regenerated - stored|  (identical float32 values: 260000/260000) | value=0.000000e+00 | tol=0.0001
+[PASS] H1 25 encoded mean |SHAP| vs original encoded CSV (max) | value=0.000000e+00 | tol=1e-05
+[PASS] H2 25 encoded mean SHAP (signed) vs original encoded CSV (max) | value=0.000000e+00 | tol=1e-05
+[PASS] H3 encoded feature ranking identical (all 25) | value=0 | tol=0
+[PASS] H4 13 grouped mean |SHAP| vs original global CSV (max) | value=0.000000e+00 | tol=1e-05
+[PASS] H5 13 grouped mean SHAP (signed) vs original global CSV (max) | value=0.000000e+00 | tol=1e-05
+[PASS] H6 13 relative-importance percentages vs original (max, percentage points) | value=0.000000e+00 | tol=0.0005
+[PASS] H7 13 factor ranks identical | value=0 | tol=0
+[PASS] H8 13 two-decimal share labels identical (the labels printed in Figure 8) | value=0 | tol=0
+[PASS] H9 shares sum to 100 | value=0.000000e+00 | tol=1e-09
+[PASS] Z1 all input files unchanged by this run (SHA-256 before = after) | value=0 | tol=0
+
+==============================================================================
+ARCHIVED-MODEL NATIVE TREESHAP REGENERATION: PASS
+checks passed 35 | failed 0 | regenerated float32 values bitwise identical to stored: True
+NOTE: this verifies the ARCHIVED model's native TreeSHAP; it does NOT reproduce the original model FITTING.
+Verification folder: D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\13_BUET_ML\06C_Verification_NativeTreeSHAP\verify_20261101_080806
+==============================================================================

@@ -1,0 +1,17 @@
+Section,Metric,Value
+Sensitivity_Sample,Sample_N,42468
+Sensitivity_Sample,Flood_N,4568
+Sensitivity_Sample,NonFlood_N,37900
+Baseline,AHP_AUC_300m_Representative,0.8001030745024469
+Weight_Perturbation,AHP_Maximum_Absolute_Delta_AUC,0.01965421955648783
+Leave_One_Factor_Out,AHP_Largest_AUC_Drop,-0.030155359758605504
+Baseline,FAHP_AUC_300m_Representative,0.8056911276795327
+Weight_Perturbation,FAHP_Maximum_Absolute_Delta_AUC,0.018559492673595024
+Leave_One_Factor_Out,FAHP_Largest_AUC_Drop,-0.03052390381176384
+Baseline,ANP_AUC_300m_Representative,0.8056623222694065
+Weight_Perturbation,ANP_Maximum_Absolute_Delta_AUC,0.012133194552906845
+Leave_One_Factor_Out,ANP_Largest_AUC_Drop,-0.03444911602567369
+ANP_Network,Total_Links,57
+ANP_Network,Successful_Link_Removal_Scenarios,57
+ANP_Network,Failed_Link_Removal_Scenarios,0
+ANP_Network,Largest_Absolute_Link_Delta_AUC,0.026408409539344535

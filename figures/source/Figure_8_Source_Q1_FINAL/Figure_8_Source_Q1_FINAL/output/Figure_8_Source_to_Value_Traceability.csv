@@ -1,0 +1,105 @@
+Panel,Factor,Quantity,Value,Source_file_and_column,Source_row_key
+a,NDVI,AHP_weight,0.0298925135933981,DU10_AHP_Weights_and_Consistency.csv : Weight,NDVI
+a,NDVI,FAHP_weight,0.0306300504930618,DU11_FAHP_Weights.csv : Final_Normalized_Weight,NDVI
+a,NDVI,ANP_weight,0.0194505901885772,DU12_ANP_Final_Weights.csv : ANP_Weight,NDVI
+b,NDVI,SHAP_share_pct,27.683235024087,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),NDVI
+c,NDVI,AHP_rank,9,"rank(descending, ties=min) of the panel (a)/(b) value",NDVI
+c,NDVI,FAHP_rank,9,"rank(descending, ties=min) of the panel (a)/(b) value",NDVI
+c,NDVI,ANP_rank,8,"rank(descending, ties=min) of the panel (a)/(b) value",NDVI
+c,NDVI,SHAP_rank,1,"rank(descending, ties=min) of the panel (a)/(b) value",NDVI
+a,LULC,AHP_weight,0.0503465610052095,DU10_AHP_Weights_and_Consistency.csv : Weight,LULC
+a,LULC,FAHP_weight,0.0515893432403828,DU11_FAHP_Weights.csv : Final_Normalized_Weight,LULC
+a,LULC,ANP_weight,0.0276306051482195,DU12_ANP_Final_Weights.csv : ANP_Weight,LULC
+b,LULC,SHAP_share_pct,22.4860981046766,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),LULC
+c,LULC,AHP_rank,7,"rank(descending, ties=min) of the panel (a)/(b) value",LULC
+c,LULC,FAHP_rank,7,"rank(descending, ties=min) of the panel (a)/(b) value",LULC
+c,LULC,ANP_rank,7,"rank(descending, ties=min) of the panel (a)/(b) value",LULC
+c,LULC,SHAP_rank,2,"rank(descending, ties=min) of the panel (a)/(b) value",LULC
+a,Elevation,AHP_weight,0.181866493121561,DU10_AHP_Weights_and_Consistency.csv : Weight,Elevation
+a,Elevation,FAHP_weight,0.181111721950121,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Elevation
+a,Elevation,ANP_weight,0.176425832235192,DU12_ANP_Final_Weights.csv : ANP_Weight,Elevation
+b,Elevation,SHAP_share_pct,15.2219782106378,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Elevation
+c,Elevation,AHP_rank,2,"rank(descending, ties=min) of the panel (a)/(b) value",Elevation
+c,Elevation,FAHP_rank,2,"rank(descending, ties=min) of the panel (a)/(b) value",Elevation
+c,Elevation,ANP_rank,2,"rank(descending, ties=min) of the panel (a)/(b) value",Elevation
+c,Elevation,SHAP_rank,3,"rank(descending, ties=min) of the panel (a)/(b) value",Elevation
+a,Rainfall,AHP_weight,0.231109024229212,DU10_AHP_Weights_and_Consistency.csv : Weight,Rainfall
+a,Rainfall,FAHP_weight,0.221283760554437,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Rainfall
+a,Rainfall,ANP_weight,0.134516004362018,DU12_ANP_Final_Weights.csv : ANP_Weight,Rainfall
+b,Rainfall,SHAP_share_pct,6.10118127265023,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Rainfall
+c,Rainfall,AHP_rank,1,"rank(descending, ties=min) of the panel (a)/(b) value",Rainfall
+c,Rainfall,FAHP_rank,1,"rank(descending, ties=min) of the panel (a)/(b) value",Rainfall
+c,Rainfall,ANP_rank,4,"rank(descending, ties=min) of the panel (a)/(b) value",Rainfall
+c,Rainfall,SHAP_rank,4,"rank(descending, ties=min) of the panel (a)/(b) value",Rainfall
+a,Slope,AHP_weight,0.141511376901304,DU10_AHP_Weights_and_Consistency.csv : Weight,Slope
+a,Slope,FAHP_weight,0.143105370744804,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Slope
+a,Slope,ANP_weight,0.139047183443835,DU12_ANP_Final_Weights.csv : ANP_Weight,Slope
+b,Slope,SHAP_share_pct,4.84248536435563,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Slope
+c,Slope,AHP_rank,3,"rank(descending, ties=min) of the panel (a)/(b) value",Slope
+c,Slope,FAHP_rank,3,"rank(descending, ties=min) of the panel (a)/(b) value",Slope
+c,Slope,ANP_rank,3,"rank(descending, ties=min) of the panel (a)/(b) value",Slope
+c,Slope,SHAP_rank,5,"rank(descending, ties=min) of the panel (a)/(b) value",Slope
+a,Distance to road,AHP_weight,0.0231976023965592,DU10_AHP_Weights_and_Consistency.csv : Weight,Distance_Road
+a,Distance to road,FAHP_weight,0.023691160461373,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Distance_Road
+a,Distance to road,ANP_weight,0.0015953006192555,DU12_ANP_Final_Weights.csv : ANP_Weight,Distance_Road
+b,Distance to road,SHAP_share_pct,4.31162934455302,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Distance_Road
+c,Distance to road,AHP_rank,10,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_Road
+c,Distance to road,FAHP_rank,10,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_Road
+c,Distance to road,ANP_rank,12,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_Road
+c,Distance to road,SHAP_rank,6,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_Road
+a,TWI,AHP_weight,0.0653402495697084,DU10_AHP_Weights_and_Consistency.csv : Weight,TWI
+a,TWI,FAHP_weight,0.0668335399435871,DU11_FAHP_Weights.csv : Final_Normalized_Weight,TWI
+a,TWI,ANP_weight,0.118001814067042,DU12_ANP_Final_Weights.csv : ANP_Weight,TWI
+b,TWI,SHAP_share_pct,4.10976291660703,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),TWI
+c,TWI,AHP_rank,6,"rank(descending, ties=min) of the panel (a)/(b) value",TWI
+c,TWI,FAHP_rank,6,"rank(descending, ties=min) of the panel (a)/(b) value",TWI
+c,TWI,ANP_rank,5,"rank(descending, ties=min) of the panel (a)/(b) value",TWI
+c,TWI,SHAP_rank,7,"rank(descending, ties=min) of the panel (a)/(b) value",TWI
+a,Distance to river,AHP_weight,0.0847011984787238,DU10_AHP_Weights_and_Consistency.csv : Weight,Distance_River
+a,Distance to river,FAHP_weight,0.0865828716144471,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Distance_River
+a,Distance to river,ANP_weight,0.0867731490122148,DU12_ANP_Final_Weights.csv : ANP_Weight,Distance_River
+b,Distance to river,SHAP_share_pct,3.78137022844665,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Distance_River
+c,Distance to river,AHP_rank,5,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_River
+c,Distance to river,FAHP_rank,5,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_River
+c,Distance to river,ANP_rank,6,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_River
+c,Distance to river,SHAP_rank,8,"rank(descending, ties=min) of the panel (a)/(b) value",Distance_River
+a,Tangential curvature,AHP_weight,0.0141653321150144,DU10_AHP_Weights_and_Consistency.csv : Weight,Tangential_Curvature
+a,Tangential curvature,FAHP_weight,0.0143242412004515,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Tangential_Curvature
+a,Tangential curvature,ANP_weight,0.0083459810987633,DU12_ANP_Final_Weights.csv : ANP_Weight,Tangential_Curvature
+b,Tangential curvature,SHAP_share_pct,3.74106698960035,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Tangential_Curvature
+c,Tangential curvature,AHP_rank,12,"rank(descending, ties=min) of the panel (a)/(b) value",Tangential_Curvature
+c,Tangential curvature,FAHP_rank,12,"rank(descending, ties=min) of the panel (a)/(b) value",Tangential_Curvature
+c,Tangential curvature,ANP_rank,11,"rank(descending, ties=min) of the panel (a)/(b) value",Tangential_Curvature
+c,Tangential curvature,SHAP_rank,9,"rank(descending, ties=min) of the panel (a)/(b) value",Tangential_Curvature
+a,Drainage density,AHP_weight,0.109499870076582,DU10_AHP_Weights_and_Consistency.csv : Weight,Drainage_Density
+a,Drainage density,FAHP_weight,0.111309657745663,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Drainage_Density
+a,Drainage density,ANP_weight,0.261989821266552,DU12_ANP_Final_Weights.csv : ANP_Weight,Drainage_Density
+b,Drainage density,SHAP_share_pct,2.57338966839493,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Drainage_Density
+c,Drainage density,AHP_rank,4,"rank(descending, ties=min) of the panel (a)/(b) value",Drainage_Density
+c,Drainage density,FAHP_rank,4,"rank(descending, ties=min) of the panel (a)/(b) value",Drainage_Density
+c,Drainage density,ANP_rank,1,"rank(descending, ties=min) of the panel (a)/(b) value",Drainage_Density
+c,Drainage density,SHAP_rank,10,"rank(descending, ties=min) of the panel (a)/(b) value",Drainage_Density
+a,Profile curvature,AHP_weight,0.0179499049243712,DU10_AHP_Weights_and_Consistency.csv : Weight,Profile_Curvature
+a,Profile curvature,FAHP_weight,0.0183249327924307,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Profile_Curvature
+a,Profile curvature,ANP_weight,0.0110014410357366,DU12_ANP_Final_Weights.csv : ANP_Weight,Profile_Curvature
+b,Profile curvature,SHAP_share_pct,2.21915519273676,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Profile_Curvature
+c,Profile curvature,AHP_rank,11,"rank(descending, ties=min) of the panel (a)/(b) value",Profile_Curvature
+c,Profile curvature,FAHP_rank,11,"rank(descending, ties=min) of the panel (a)/(b) value",Profile_Curvature
+c,Profile curvature,ANP_rank,10,"rank(descending, ties=min) of the panel (a)/(b) value",Profile_Curvature
+c,Profile curvature,SHAP_rank,11,"rank(descending, ties=min) of the panel (a)/(b) value",Profile_Curvature
+a,Aspect,AHP_weight,0.011584014745376,DU10_AHP_Weights_and_Consistency.csv : Weight,Aspect
+a,Aspect,FAHP_weight,0.011461901818902,DU11_FAHP_Weights.csv : Final_Normalized_Weight,Aspect
+a,Aspect,ANP_weight,0.0012756265855403,DU12_ANP_Final_Weights.csv : ANP_Weight,Aspect
+b,Aspect,SHAP_share_pct,2.18343888576439,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),Aspect
+c,Aspect,AHP_rank,13,"rank(descending, ties=min) of the panel (a)/(b) value",Aspect
+c,Aspect,FAHP_rank,13,"rank(descending, ties=min) of the panel (a)/(b) value",Aspect
+c,Aspect,ANP_rank,13,"rank(descending, ties=min) of the panel (a)/(b) value",Aspect
+c,Aspect,SHAP_rank,12,"rank(descending, ties=min) of the panel (a)/(b) value",Aspect
+a,HSG,AHP_weight,0.0388358588429803,DU10_AHP_Weights_and_Consistency.csv : Weight,HSG
+a,HSG,FAHP_weight,0.0397514474403382,DU11_FAHP_Weights.csv : Final_Normalized_Weight,HSG
+a,HSG,ANP_weight,0.0139466509370535,DU12_ANP_Final_Weights.csv : ANP_Weight,HSG
+b,HSG,SHAP_share_pct,0.745208797489606,BUET_B08U_XGB_SHAP_Global_13Factor_Importance.csv : Relative_Importance_Percent (recomputed from BUET_B08U_XGB_SHAP_Explanation_Sample.csv : <Factor>_SHAP),HSG
+c,HSG,AHP_rank,8,"rank(descending, ties=min) of the panel (a)/(b) value",HSG
+c,HSG,FAHP_rank,8,"rank(descending, ties=min) of the panel (a)/(b) value",HSG
+c,HSG,ANP_rank,9,"rank(descending, ties=min) of the panel (a)/(b) value",HSG
+c,HSG,SHAP_rank,13,"rank(descending, ties=min) of the panel (a)/(b) value",HSG

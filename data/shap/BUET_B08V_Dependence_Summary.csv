@@ -1,0 +1,8 @@
+Factor,P20,P80,Low20_Mean_SHAP,High20_Mean_SHAP,High_minus_Low_SHAP,Broad_Direction
+NDVI,0.4025599598884582,0.6550332903862,0.9247917499914765,-2.785481903254986,-3.710273653246462,Higher values decrease model susceptibility relative to lower values
+Elevation,4.233644104003906,27.665245819091798,0.5335871281441068,-1.3646165195187205,-1.8982036476628275,Higher values decrease model susceptibility relative to lower values
+Rainfall,2893.53056640625,3244.771875,-0.08517269065250002,-0.3156988320732198,-0.23052614142071978,Higher values decrease model susceptibility relative to lower values
+Slope,0.47251866459846503,5.869046306610109,0.2814001714974875,-0.21488062625851306,-0.49628079775600054,Higher values decrease model susceptibility relative to lower values
+TWI,5.462861633300782,10.822922706604004,-0.44316402445320274,0.05517126291334713,0.49833528736654986,Higher values increase model susceptibility relative to lower values
+Distance_River,652.8881225585938,4031.380371093751,0.15958288668036402,-0.2602696153220968,-0.4198525020024608,Higher values decrease model susceptibility relative to lower values
+Distance_Road,142.9010009765625,1409.8095703125,-0.18497491555178386,-0.2553953309107019,-0.07042041535891802,Higher values decrease model susceptibility relative to lower values

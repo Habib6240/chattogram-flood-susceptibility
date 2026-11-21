@@ -1,0 +1,14 @@
+name: chattogram-flood
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - numpy=2.4
+  - xgboost=3.4.1
+  - scikit-learn=1.9.1
+  - scipy
+  - pandas
+  - matplotlib
+  - joblib
+  - gdal
+  - tifffile
+  - openpyxl

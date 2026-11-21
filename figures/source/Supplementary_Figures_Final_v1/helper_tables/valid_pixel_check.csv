@@ -1,0 +1,14 @@
+Factor,File,NoData_value,Valid_pixels_file,Valid_pixels_audit_basis,Valid_pixels_audit_csv,Match_audit,Valid_inside_final_mask,Mask_cells,All_mask_cells_valid,Note
+Rainfall,01_Rainfall_CHIRPSv3_MAP_1991_2020_Chattogram_30m_STACK.tif,-9999.0,4984270,4984270,4984270,True,4722216,4722216,True,
+Elevation,DEM_Clipped_UTM46N.tif,-9999.0,4984078,4984078,4984078,True,4722216,4722216,True,
+Slope,Slope_deg_30m.tif,-9999.0,4960440,4960440,4960440,True,4722216,4722216,True,
+Drainage density,Drainage_Density_Chittagong_30m_STACK.tif,-9999.0,4980733,4980733,4980733,True,4722216,4722216,True,
+Distance to river,05_Distance_to_River_HydroRIVERS_UPLAND25_Chattogram_30m_STACK.tif,-9999.0,4984270,4984270,4984270,True,4722216,4722216,True,
+TWI,TWI_Chittagong_30m_STACK.tif,-9999.0,4984245,4984245,4984245,True,4722216,4722216,True,
+LULC,02_LULC_ESA_WorldCover_2021_Chattogram_30m_STACK.tif,0.0,4984270,4772550,4772550,True,4722216,4722216,True,Audit basis excludes WorldCover class 80 (open water)
+HSG,04_Soil_HYSOGs250m_Chattogram_30m_STACK.tif,255.0,4861815,4861815,4861815,True,4722216,4722216,True,
+NDVI,03_NDVI_Sentinel2_Median_2021_Chattogram_30m_STACK.tif,-9999.0,4984270,4984270,4984270,True,4722216,4722216,True,
+Distance to road,06_Distance_to_Road_OSM2021_Chattogram_30m_STACK.tif,-9999.0,4984270,4984270,4984270,True,4722216,4722216,True,
+Profile curvature,Profile_Curvature_30m.tif,,4960440,4960440,4960440,True,4722216,4722216,True,
+Tangential curvature,Tangential_Curvature_30m.tif,,4960440,4960440,4960440,True,4722216,4722216,True,
+Aspect,Aspect_deg_30_FLATFIX.tif,-9999.0,4861094,4861094,4861094,True,4722216,4722216,True,

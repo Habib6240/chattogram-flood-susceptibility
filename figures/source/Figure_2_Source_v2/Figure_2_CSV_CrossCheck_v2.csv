@@ -1,0 +1,5 @@
+Event,Label_type_CSV,Valid_area_km2_raster,Valid_area_km2_CSV,Valid_diff_km2,Valid_diff_pct,Flood_area_km2_raster,Flood_area_km2_CSV_combined_B03U,Flood_diff_km2,Flood_diff_pct,Flood_area_km2_CSV_original_open_B03,Flood_fraction_pct_raster,Flood_fraction_pct_CSV,Fraction_diff_pp
+2019,DURING_EVENT,4024.688,4010.622,14.066,0.351,602.32,602.288,0.031,0.005,520.478,14.966,15.017,-0.052
+2021,DURING_EVENT,4044.072,4029.388,14.684,0.364,491.899,491.771,0.128,0.026,438.673,12.163,12.205,-0.041
+2023,POST_PEAK_PERSISTENT_INUNDATION,4044.064,4029.38,14.683,0.364,266.275,266.138,0.136,0.051,226.222,6.584,6.605,-0.021
+2026,DURING_EVENT,4044.409,4029.725,14.685,0.364,468.975,469.02,-0.045,-0.01,387.767,11.596,11.639,-0.043

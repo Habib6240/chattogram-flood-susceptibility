@@ -1,0 +1,12 @@
+QC_Metric,Value
+Composite_Model_Rows,169900
+Encoded_Feature_Count,25
+Conceptual_Factor_Count,13
+SHAP_Sample_N,20000
+Sampling_Design,4000 random samples per B06 geographic fold
+SHAP_Method,Native XGBoost TreeSHAP pred_contribs
+SHAP_Scale,Raw model margin / log-odds
+Maximum_Margin_Reconstruction_Error,1.811981201171875e-05
+Maximum_Probability_Reconstruction_Error,1.1920928955078125e-07
+Additivity_Status,PASS
+Label_Version,B03U urban-aware

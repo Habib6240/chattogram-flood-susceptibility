@@ -1,0 +1,40 @@
+id,description,value,tolerance,tolerance_basis,status,note
+I1,input files identical (SHA-256) to the copies audited by the reviewer,0,0,exact,PASS,
+A1,valid rows equal original QC / documented count,0,0,exact integer,PASS,
+A2,flood / non-flood counts equal documented Table S11 counts,0,0,exact integer,PASS,
+B1,every valid-row block has a fold in the B06 file,0,0,exact,PASS,
+C1,"sample size 20,000 (4,000 per fold)",20000,,,PASS,
+C2,sample indices and ordering identical to stored Explain_Index,0,0,exact integer,PASS,
+C3,coordinates identical to stored CSV,0.0,0.0,exact (float64 coordinates),PASS,
+C4,fold assignment identical,0,0,exact integer,PASS,
+C5,observed labels identical (CSV and NPZ),0,0,exact integer,PASS,
+D1,"contribution matrix shape 20,000 x 26 (25 features + bias)",0,0,,PASS,"(20000, 26)"
+D2,encoded dimension equals 25 and equals model feature count,0,0,,PASS,
+D3,encoded feature names (from archived preprocessor categories) equal original encoded names,0,0,,PASS,
+D4,archived hyperparameters equal documented settings,0,0,exact,PASS,[]
+D5,scale_pos_weight equals NEG/POS of the valid rows,0.0,1e-09,stored as float64 of NEG/POS,PASS,
+D6,number of trees equals 600,0,0,,PASS,"trees=600, rounds=600"
+D7,XGBoost runtime version equals archive version string (informational),0,,,INFO,"runtime=3.4.1, archive=[3, 4, 1], config=[3, 4, 1]"
+E1,"additivity: |margin - (sum of contributions + bias)|, 20,000 rows, original definition",1.811981201171875e-05,0.0001,original B08U limit,PASS,
+E2,"sigmoid(margin) = predicted probability, 20,000 rows, original definition",1.1920928955078125e-07,1e-05,original B08U limit,PASS,
+E3,additivity re-evaluated in float64,1.7933733033714816e-05,0.0001,original B08U limit,PASS,
+E4,regenerated margin error versus original recorded QC value (informational),1.811981201171875e-05,,,INFO,original=1.811981e-05
+E5,regenerated probability error versus original recorded QC value (informational),1.1920928955078125e-07,,,INFO,original=1.192093e-07
+E6,thread-order noise: max |contrib(default threads) - contrib(1 thread)| (informational; empirical basis for tolerances),0.0,,,INFO,
+G1,Predicted probability vs stored CSV: max |regenerated - stored|  (identical float32 values: 20000/20000),0.0,1e-05,original B08U probability limit (1e-5); original error was 1.2e-7,PASS,
+G2,Predicted probability vs stored NPZ: max |regenerated - stored|  (identical float32 values: 20000/20000),0.0,1e-05,original B08U probability limit (1e-5); original error was 1.2e-7,PASS,
+G3,SHAP bias vs stored CSV: max |regenerated - stored|  (identical float32 values: 20000/20000),0.0,0.0001,"original B08U margin-additivity limit (1e-4); original reconstruction error was 1.8e-5, so differences below 1e-4 are not distinguishable from float32 accumulation or thread-order noise",PASS,
+G4,SHAP bias vs stored NPZ: max |regenerated - stored|  (identical float32 values: 20000/20000),0.0,0.0001,"original B08U margin-additivity limit (1e-4); original reconstruction error was 1.8e-5, so differences below 1e-4 are not distinguishable from float32 accumulation or thread-order noise",PASS,
+G5,"25 encoded SHAP contributions (20,000 x 25) vs stored NPZ: max |regenerated - stored|  (identical float32 values: 500000/500000)",0.0,0.0001,"original B08U margin-additivity limit (1e-4); original reconstruction error was 1.8e-5, so differences below 1e-4 are not distinguishable from float32 accumulation or thread-order noise",PASS,
+G6,"13 grouped SHAP (20,000 x 13) vs stored NPZ: max |regenerated - stored|  (identical float32 values: 260000/260000)",0.0,0.0001,"original B08U margin-additivity limit (1e-4); original reconstruction error was 1.8e-5, so differences below 1e-4 are not distinguishable from float32 accumulation or thread-order noise",PASS,
+G7,13 grouped SHAP vs stored CSV columns: max |regenerated - stored|  (identical float32 values: 260000/260000),0.0,0.0001,"original B08U margin-additivity limit (1e-4); original reconstruction error was 1.8e-5, so differences below 1e-4 are not distinguishable from float32 accumulation or thread-order noise",PASS,
+H1,25 encoded mean |SHAP| vs original encoded CSV (max),0.0,1e-05,about 5x the 2.1e-6 float32-versus-float64 averaging difference observed between the stored NPZ and stored CSV aggregates,PASS,
+H2,25 encoded mean SHAP (signed) vs original encoded CSV (max),0.0,1e-05,about 5x the 2.1e-6 float32-versus-float64 averaging difference observed between the stored NPZ and stored CSV aggregates,PASS,
+H3,encoded feature ranking identical (all 25),0,0,exact,PASS,
+H4,13 grouped mean |SHAP| vs original global CSV (max),0.0,1e-05,about 5x the 2.1e-6 float32-versus-float64 averaging difference observed between the stored NPZ and stored CSV aggregates,PASS,
+H5,13 grouped mean SHAP (signed) vs original global CSV (max),0.0,1e-05,about 5x the 2.1e-6 float32-versus-float64 averaging difference observed between the stored NPZ and stored CSV aggregates,PASS,
+H6,"13 relative-importance percentages vs original (max, percentage points)",0.0,0.0005,"percentage-point propagation of the aggregate tolerance: 100 x 1e-5 / 3.957 (sum of mean|SHAP|) = 2.5e-4, doubled for headroom",PASS,
+H7,13 factor ranks identical,0,0,exact,PASS,
+H8,13 two-decimal share labels identical (the labels printed in Figure 8),0,0,exact,PASS,
+H9,shares sum to 100,0.0,1e-09,arithmetic,PASS,
+Z1,all input files unchanged by this run (SHA-256 before = after),0,0,exact,PASS,

@@ -1,0 +1,11 @@
+Check,Value,Expected,Result
+Mask encoding,"unique values [0, 1]","1 usable, 0 excluded",PASS
+Final valid cells,4722216,4722216,PASS
+Analysis area km2 (cells x 900 m2),4249.9944,4249.9944,PASS
+Excluded terrestrial cells,50334,50334,PASS
+Factors valid on every mask cell,13 of 13,13 of 13,PASS
+Grid checks passed (audit CSV),13,13,PASS
+AOI rings read (outer / hole),2 / 0,-,INFO
+AOI projected bounding box vs raster extent (m),x 336135-419480; y 2417933-2544404,x 335303-420053; y 2417725-2544715,INFO
+Mask cells inside the rasterised AOI,"4,722,216 of 4,722,216 (100.000%)",>= 99.9%,PASS
+Rasterised AOI cells (AOI polygon at 30 m),4991269,"file valid cells 4,984,270 (all factors share this footprint)",INFO

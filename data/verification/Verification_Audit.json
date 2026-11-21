@@ -1,0 +1,39 @@
+{
+ "verdict": "ARCHIVED-MODEL NATIVE TREESHAP REGENERATION: PASS",
+ "checks_passed": 35,
+ "checks_failed": 0,
+ "regenerated_values_bitwise_identical_to_stored_float32": true,
+ "max_margin_error": 1.811981201171875e-05,
+ "max_probability_error": 1.1920928955078125e-07,
+ "grouped_shares_regenerated": {
+  "Elevation": 15.221978210637829,
+  "Slope": 4.84248536435563,
+  "Aspect": 2.183438885764389,
+  "Profile_Curvature": 2.219155192736755,
+  "Tangential_Curvature": 3.7410669896003537,
+  "TWI": 4.109762916607034,
+  "Drainage_Density": 2.5733896683949298,
+  "Rainfall": 6.101181272650227,
+  "LULC": 22.486098104676596,
+  "NDVI": 27.683235024086983,
+  "HSG": 0.7452087974896057,
+  "Distance_River": 3.7813702284466486,
+  "Distance_Road": 4.31162934455302
+ },
+ "grouped_ranks_regenerated": {
+  "NDVI": 1,
+  "LULC": 2,
+  "Elevation": 3,
+  "Rainfall": 4,
+  "Slope": 5,
+  "Distance_Road": 6,
+  "TWI": 7,
+  "Distance_River": 8,
+  "Tangential_Curvature": 9,
+  "Drainage_Density": 10,
+  "Profile_Curvature": 11,
+  "Aspect": 12,
+  "HSG": 13
+ },
+ "limitation": "Archived-model verification only; original model fitting not independently reproduced."
+}

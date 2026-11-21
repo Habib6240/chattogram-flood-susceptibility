@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article and the Zenodo software record; cite the dataset records when using the data. DOIs were reserved before publication and resolve once the records are published."
+title: "Code and data for: Prescribed versus Learned Flood Susceptibility: MCDA and Machine Learning Under Event- and Geography-Withheld Evaluation in Chattogram, Bangladesh"
+type: software
+authors:
+  - family-names: Habib
+    given-names: "Md. Ahsan"
+    orcid: "https://orcid.org/0009-0009-6932-0567"
+    affiliation: "Department of Civil Engineering, Bangladesh University of Engineering and Technology (BUET), Dhaka-1000, Bangladesh"
+    email: "1904062@ce.buet.ac.bd"
+version: "1.0.0"
+license: MIT  # software only; data terms in LICENSING.md and DATA_LICENSE.md
+keywords:
+  - flood susceptibility
+  - Sentinel-1
+  - AHP
+  - fuzzy AHP
+  - analytic network process
+  - random forest
+  - XGBoost
+  - SHAP
+  - Bangladesh
+repository-code: "https://github.com/Habib6240/chattogram-flood-susceptibility"
+url: "https://github.com/Habib6240/chattogram-flood-susceptibility"
+doi: 10.5281/zenodo.24397165
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24397165
+    description: "Zenodo software record (this repository, version 1.0.0)"
+references:
+  - type: dataset
+    title: "Data products for: Prescribed versus Learned Flood Susceptibility: MCDA and Machine Learning Under Event- and Geography-Withheld Evaluation in Chattogram, Bangladesh"
+    authors:
+      - family-names: Habib
+        given-names: "Md. Ahsan"
+        orcid: "https://orcid.org/0009-0009-6932-0567"
+    version: "1.0.0"
+    doi: 10.5281/zenodo.24397676
+    notes: "Public Zenodo dataset record (open access; no Distance_River values)."
+  - type: dataset
+    title: "Restricted component (original HydroRIVERS-derived Distance_River values) for: Prescribed versus Learned Flood Susceptibility: MCDA and Machine Learning Under Event- and Geography-Withheld Evaluation in Chattogram, Bangladesh"
+    authors:
+      - family-names: Habib
+        given-names: "Md. Ahsan"
+        orcid: "https://orcid.org/0009-0009-6932-0567"
+    version: "1.0.0"
+    doi: 10.5281/zenodo.24398548
+    notes: "Restricted Zenodo record; access requires a signed End User Licence Agreement (author-drafted, not issued or approved by WWF)."

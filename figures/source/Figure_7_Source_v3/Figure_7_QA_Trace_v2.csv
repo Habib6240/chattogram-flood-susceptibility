@@ -1,0 +1,16 @@
+Surface_pair,Family_relation,Pearson_r_displayed_value,Exact_5class_agreement_displayed,Top20_Jaccard_displayed,Source_of_displayed_value,Cross_check_vs_reference_book
+RF – XGBoost,Within ML,0.963245,78.66%,0.861023,"Table 6 (supplied, source precision)",consistent with reference-book 3-decimal value
+RF – ML consensus,Within ML,0.989,87.4%,0.933,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+RF – AHP,Cross-family,0.617,45.8%,0.364,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+RF – FAHP,Cross-family,0.623,46.5%,0.376,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+RF – ANP,Cross-family,0.603,45.8%,0.374,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+XGBoost – ML consensus,Within ML,0.992,90.9%,0.923,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+XGBoost – AHP,Cross-family,0.666,46.9%,0.372,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+XGBoost – FAHP,Cross-family,0.672,47.6%,0.384,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+XGBoost – ANP,Cross-family,0.651,46.5%,0.381,Reference-book table (3 decimals),consistent with reference-book 3-decimal value
+ML consensus – AHP,Cross-family,0.649443,46.66%,0.3687,"Table 6 (supplied, source precision)",consistent with reference-book 3-decimal value
+ML consensus – FAHP,Cross-family,0.65532,47.36%,0.381276,"Table 6 (supplied, source precision)",consistent with reference-book 3-decimal value
+ML consensus – ANP,Cross-family,0.634384,46.54%,0.3788,"Table 6 (supplied, source precision)",consistent with reference-book 3-decimal value
+AHP – FAHP,Within MCDA,0.999784,97.71%,0.962272,"Table 6 (supplied, source precision)",consistent with reference-book 3-decimal value
+AHP – ANP,Within MCDA,0.9495,65.6%,0.5476,"Table 6 (supplied, source precision)",rounding-boundary flag: r
+FAHP – ANP,Within MCDA,0.9541,66.79%,0.5661,"Table 6 (supplied, source precision)",consistent with reference-book 3-decimal value

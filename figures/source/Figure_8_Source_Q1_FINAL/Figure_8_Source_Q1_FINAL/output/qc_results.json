@@ -1,0 +1,202 @@
+[
+ [
+  "AHP: 13 weights, sum=1",
+  "PASS",
+  "sum=1.000000000000"
+ ],
+ [
+  "FAHP: 13 weights, sum=1",
+  "PASS",
+  "sum=1.000000000000"
+ ],
+ [
+  "ANP: 13 weights, sum=1",
+  "PASS",
+  "sum=1.000000000000"
+ ],
+ [
+  "audit table has 13 unique factors",
+  "PASS",
+  ""
+ ],
+ [
+  "39 MCDA weights in audit table equal raw CSV values",
+  "PASS",
+  "max diff 5.0e-16"
+ ],
+ [
+  "explanation sample has 20,000 rows",
+  "PASS",
+  "20000"
+ ],
+ [
+  "4,000 rows per fold (5 folds)",
+  "PASS",
+  "{'1': 4000, '2': 4000, '3': 4000, '4': 4000, '5': 4000}"
+ ],
+ [
+  "13 grouped SHAP shares: recomputed from 20,000 rows = global CSV",
+  "PASS",
+  "max diff 1.57e-06 pp"
+ ],
+ [
+  "audit table SHAP shares equal global CSV",
+  "PASS",
+  ""
+ ],
+ [
+  "SHAP shares sum to 100",
+  "PASS",
+  "100.000000"
+ ],
+ [
+  "additivity (bias + sum SHAP = logit p), first 5,000 rows",
+  "PASS",
+  "max 1.44e-05"
+ ],
+ [
+  "25 encoded features",
+  "PASS",
+  ""
+ ],
+ [
+  "LULC: components found",
+  "PASS",
+  "8 columns"
+ ],
+ [
+  "HSG: components found",
+  "PASS",
+  "4 columns"
+ ],
+ [
+  "AHP ranks in audit table equal independent ranks",
+  "PASS",
+  ""
+ ],
+ [
+  "FAHP ranks in audit table equal independent ranks",
+  "PASS",
+  ""
+ ],
+ [
+  "ANP ranks in audit table equal independent ranks",
+  "PASS",
+  ""
+ ],
+ [
+  "SHAP ranks in audit table equal independent ranks",
+  "PASS",
+  ""
+ ],
+ [
+  "no tied values within any series",
+  "PASS",
+  ""
+ ],
+ [
+  "factor order = SHAP rank 1..13",
+  "PASS",
+  ""
+ ],
+ [
+  "SVG has live text",
+  "PASS",
+  "64 text elements"
+ ],
+ [
+  "no stage codes / file names / identifiers in figure text",
+  "PASS",
+  "[]"
+ ],
+ [
+  "no causal / superiority wording in figure",
+  "PASS",
+  ""
+ ],
+ [
+  "\"not causal\" and \"separate axes\" statements present",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: (a)",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: (b)",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: (c)",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: AHP",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: FAHP",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: ANP",
+  "PASS",
+  ""
+ ],
+ [
+  "label present: XGBoost SHAP",
+  "PASS",
+  ""
+ ],
+ [
+  "all 13 factor names appear in SVG exactly once as tick labels",
+  "PASS",
+  ""
+ ],
+ [
+  "minimum font size >= 6.5 pt",
+  "PASS",
+  "min 6.50 pt; sizes [6.5, 7.0, 8.5, 10.0]"
+ ],
+ [
+  "SVG font family Liberation Sans",
+  "PASS",
+  ""
+ ],
+ [
+  "13 bar labels equal CSV shares at 2 dp (each present in SVG text)",
+  "PASS",
+  "['27.68', '22.49', '15.22', '6.10', '4.84', '4.31', '4.11', '3.78', '3.74', '2.57', '2.22', '2.18', '0.75']"
+ ],
+ [
+  "bar labels appear in SHAP-rank order (top to bottom)",
+  "PASS",
+  ""
+ ],
+ [
+  "PDF fonts all embedded",
+  "PASS",
+  "SBXJWO+LiberationSans-Bold           CID TrueType      Identity-H       yes yes yes     18  0"
+ ],
+ [
+  "PDF is vector (no raster images)",
+  "PASS",
+  "0 images"
+ ],
+ [
+  "PNG 600 dpi",
+  "PASS",
+  "(599.9988, 599.9988) (4560, 2940)"
+ ],
+ [
+  "no ink on PNG border (no clipping)",
+  "PASS",
+  ""
+ ]
+]
