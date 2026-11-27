@@ -2,6 +2,8 @@
 
 Code, derived data and documentation for the manuscript *Prescribed versus Learned Flood Susceptibility: MCDA and Machine Learning Under Event- and Geography-Withheld Evaluation in Chattogram, Bangladesh* (author: Md. Ahsan Habib, Department of Civil Engineering, Bangladesh University of Engineering and Technology (BUET), Dhaka-1000, Bangladesh; ORCID 0009-0009-6932-0567; contact 1904062@ce.buet.ac.bd).
 
+**Version 1.1.0** adds the upstream scripts (Google Earth Engine, QGIS Python console, dataset assembly, final mapping, MCDA), a provenance and label-chronology note, a label-version sensitivity check, an in-sample-optimism check, an MCDA rebuild check and environment evidence. No published number changed. See `CHANGELOG.md`.
+
 **Links.** GitHub repository: https://github.com/Habib6240/chattogram-flood-susceptibility. Software record (this repository, archived on release): https://doi.org/10.5281/zenodo.24397165. Public dataset record: https://doi.org/10.5281/zenodo.24397676. Restricted `Distance_River` record (signed EULA): https://doi.org/10.5281/zenodo.24398548. DOIs were reserved in Zenodo before publication; a DOI link resolves only once its record is published.
 
 ## What the study does
@@ -12,7 +14,11 @@ Interpretive limits: the references are remotely sensed observations, not field-
 ## Repository layout
 | Path | Contents |
 |---|---|
-| `scripts/ml` | B06U spatial 5-fold CV; B07U strict held-event and held-geography evaluation |
+| `scripts/gee` | Google Earth Engine scripts: Sentinel-1 availability, pair screening and flood-label generation (original B03 and urban-aware B03U); CHIRPS, WorldCover and NDVI exports |
+| `scripts/qgis_python` | QGIS Python-console scripts: factor audits and common mask (`common_qc`), MCDA standardisation, AHP, FAHP, ANP, comparison, validation and sensitivity (`mcda`), and an environment-report script |
+| `scripts/ml` | B02B event selection, B03U label QC, B04U dataset assembly, B05U baseline, B06U spatial 5-fold CV, B07U strict held-event and held-geography evaluation, B09A final 30 m maps, B10A figures/tables |
+| `scripts/original_label_pipeline` | Original (pre-revision) label ML chain B04 to B08C, retained for the label chronology |
+| `docs/provenance` | Provenance, label chronology, scoring rules, MCDA rebuild check, software evidence |
 | `scripts/shap` | B08U full-data XGBoost TreeSHAP; B08V dependence summaries |
 | `scripts/comparison` | B09B ML-versus-MCDA comparison and spatial agreement |
 | `scripts/stage_and_run.py` | Builds the directory layout the original scripts expect and writes patched copies pointing to it (originals are untouched) |
@@ -23,7 +29,7 @@ Interpretive limits: the references are remotely sensed observations, not field-
 | `supplement/` | Supplementary tables workbook, provenance and callout crosswalk |
 | `environment/` | Evidence-tiered software record, `requirements.txt`, `environment.yml` |
 | `docs/sensitivity_reports` | Sensitivity reports and the pre-registered criteria file |
-| `docs/MISSING_MATERIALS.md` | Upstream materials not yet in the archive |
+| `docs/MISSING_MATERIALS.md` | Status of upstream materials (resolved and still missing) |
 | `Source_Data_Manifest.csv` | Third-party inputs, identifiers, access routes, licence notes |
 | `File_Inventory.csv`, `SHA256SUMS.txt` | Inventory and checksums of every packaged file |
 
@@ -36,9 +42,9 @@ Five levels are kept separate: (1) scientific robustness, (2) numerical reconstr
 | Numerical reconstruction: published metrics from archived out-of-fold predictions, SHAP outputs and rasters | Reproducible from archived files; independently recomputed in the audit (`data/verification`) |
 | Computational reproducibility: ML training (B06U, B07U), SHAP (B08U), dependence (B08V), comparison (B09B) from the master dataset | Scripts included and runnable after staging. B08V reproduced the archived summary exactly (maximum difference 0.0). On the original data the Random Forest B06U/B07U re-fit reproduced the archived out-of-fold predictions exactly, whereas the XGBoost re-fit did not (small differences, comparable to seed variation; cause not established); the archived outputs remain the reference for published numbers |
 | Scientific robustness to the rebuilt `Distance_River` column | Single-regeneration sensitivity analysis (`scripts/sensitivity`, `docs/sensitivity_reports`); summary below. Descriptive only: no inferential test and no equivalence claim |
-| MCDA weights and surfaces | Outputs archived and independently recomputed; the original DU scripts are not yet in the archive |
+| MCDA weights and surfaces | DU08-DU15 scripts included. The three surfaces were recomputed from the standardized rasters and archived weights (maximum difference 3e-08, `docs/provenance`); the standardized rasters themselves are not redistributed. Weights are analyst-specified |
 | Data accessibility | Public dataset record; `Distance_River` in a separate access-restricted record (signed EULA); `Distance_Road` as an ODbL sidecar |
-| Independent end-to-end reproducibility (Sentinel-1 labels, Equations 2-5; predictor stack GRASS/QGIS/GEE; master-dataset assembly) | **Not supported by this package**: the generating scripts and scene composites are not archived (`docs/MISSING_MATERIALS.md`) |
+| Independent end-to-end reproducibility (Sentinel-1 labels, Equations 2-5; predictor stack GRASS/QGIS/GEE; master-dataset assembly) | **Not demonstrated.** The generating scripts are now included (`scripts/gee`, `scripts/qgis_python`, `scripts/ml`), but they have not been re-run from raw data, they refer to private Earth Engine assets and original local paths, and GRASS/QGIS command parameters and HYSOGs250m alignment are not independently recorded (`docs/provenance/PROVENANCE_AND_CHRONOLOGY.md`, section 9) |
 
 ## Execution
 ```bash
@@ -74,7 +80,7 @@ See `CITATION.cff`. Cite the article and the Zenodo software record (https://doi
 | `scripts/sensitivity/*` | Distance_River sensitivity analysis | Analysis-record scripts with as-run paths; require restricted or regenerated `Distance_River` vectors not distributed here |
 | `scripts/stage_and_run.py`, `scripts/reassemble_restricted_fields.py` | Staging helper; rejoins the separately licensed OSM-derived column | New helpers written for this package (not original analysis scripts) |
 | `scripts/verification/*` | Audit recomputation | Archival; paths must be edited |
-| Sentinel-1 label generation (GEE), factor preprocessing (GRASS/QGIS), master-dataset assembly (B04U), MCDA DU10-DU13 scripts | Upstream | Not in the archive; essential for full rebuild; listed in `docs/MISSING_MATERIALS.md`. No reconstructed substitutes are provided |
+| Sentinel-1 label generation (GEE), factor preprocessing (QGIS Python), master-dataset assembly (B04U), MCDA DU08-DU15 scripts | Upstream | Included as the author's original scripts (version 1.1.0); not re-run from raw data; see `docs/provenance` |
 | Third-party tools (QGIS, GRASS, Google Earth Engine) | Processing | Non-redistributable; versions as in `environment/Software_Environment.md` |
 
 ## Known limitations

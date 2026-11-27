@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0009-6932-0567"
     affiliation: "Department of Civil Engineering, Bangladesh University of Engineering and Technology (BUET), Dhaka-1000, Bangladesh"
     email: "1904062@ce.buet.ac.bd"
-version: "1.0.0"
+version: "1.1.0"
 license: MIT  # software only; data terms in LICENSING.md and DATA_LICENSE.md
 keywords:
   - flood susceptibility
@@ -26,7 +26,7 @@ doi: 10.5281/zenodo.24397165
 identifiers:
   - type: doi
     value: 10.5281/zenodo.24397165
-    description: "Zenodo software record (this repository, version 1.0.0)"
+    description: "Zenodo software record (all versions; the version DOI for each release is shown on the record page)"
 references:
   - type: dataset
     title: "Data products for: Prescribed versus Learned Flood Susceptibility: MCDA and Machine Learning Under Event- and Geography-Withheld Evaluation in Chattogram, Bangladesh"

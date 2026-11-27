@@ -1,0 +1,14 @@
+Criterion,Transformation,P05_or_Lower_Control,P95_or_Upper_Control,Output_Min,Output_Mean,Output_Max,Output_Raster
+Elevation,continuous_decreasing,2.423448145389557,73.07217216491699,0.0,0.7373168468475342,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Elevation_STD01.tif
+Slope,continuous_decreasing,0.13239682093262672,16.27642822265625,0.0,0.7258862853050232,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Slope_STD01.tif
+Profile_Curvature,continuous_decreasing,-0.005751428892835975,0.00517139071598649,0.0,0.4985077381134033,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Profile_Curvature_STD01.tif
+Tangential_Curvature,continuous_decreasing,-0.0044352252734825015,0.005546338623389602,0.0,0.5261611342430115,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Tangential_Curvature_STD01.tif
+TWI,continuous_increasing,4.131266713142395,15.794661283493042,0.0,0.3292311728000641,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_TWI_STD01.tif
+Drainage_Density,continuous_increasing,0.0,0.001756261452101171,0.0,0.45667722821235657,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Drainage_Density_STD01.tif
+Rainfall,continuous_increasing,2796.5170288085938,3408.0827026367188,0.0,0.3915623128414154,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Rainfall_STD01.tif
+NDVI,continuous_decreasing,0.2715088725090027,0.7609096318483353,0.0,0.4382147490978241,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_NDVI_STD01.tif
+Distance_River,continuous_decreasing,168.43251037597656,7146.610107421875,0.0,0.699494481086731,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Distance_River_STD01.tif
+Distance_Road,continuous_decreasing,34.67499923706055,3114.917724609375,0.0,0.7140442132949829,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Distance_Road_STD01.tif
+LULC,categorical,,,0.1,0.31557572,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_LULC_STD01.tif
+HSG,categorical,,,0.5,0.6294469,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_HSG_STD01.tif
+Aspect,categorical_directional,,,0.1,0.5533016,1.0,D:\Research\Conference Paper\Fully New Work\QGIS & Here Generated File\12_DU_MCDA\01_Standardized_Criteria\DU09_Aspect_STD01.tif

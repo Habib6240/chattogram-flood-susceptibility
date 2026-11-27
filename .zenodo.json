@@ -10,7 +10,7 @@
  ],
  "license": "MIT",
  "access_right": "open",
- "version": "1.0.0",
+ "version": "1.1.0",
  "keywords": [
   "flood susceptibility",
   "Sentinel-1",
@@ -23,7 +23,7 @@
   "Chattogram",
   "Bangladesh"
  ],
- "description": "Scripts, derived summary data and documentation supporting the cited article, including the Distance_River predictor-reconstruction sensitivity scripts and reports (scripts/sensitivity, docs/sensitivity_reports). Upstream Sentinel-1 label-generation, GRASS/QGIS preprocessing and MCDA scripts are not included (see docs/MISSING_MATERIALS.md); independent end-to-end reproduction from raw data is not supported. Large data products are in the companion dataset record. Licence scope: MIT applies to source code only; supporting tables and documentation are under CC BY 4.0 (author-owned contributions only; third-party material excluded); see LICENSING.md. Not in this record: HydroRIVERS-derived Distance_River values (original values are in the separate access-restricted Zenodo record https://doi.org/10.5281/zenodo.24398548; independent regeneration scripts in scripts/regenerate_distance_river/) and OSM-derived Distance_Road values (ODbL sidecar in the dataset record); the ML scripts cannot be re-run from this record alone (see README). No blanket CC BY 4.0 applies to the mixed dataset. Produced using Copernicus WorldDEM-30 © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.",
+ "description": "Scripts, derived summary data and documentation supporting the cited article, including the Distance_River predictor-reconstruction sensitivity scripts and reports (scripts/sensitivity, docs/sensitivity_reports). Version 1.1.0 adds the author's upstream scripts (Google Earth Engine Sentinel-1 label generation and screening, CHIRPS/WorldCover/NDVI exports, QGIS Python-console factor QC and MCDA, dataset assembly, final mapping) and a provenance note (docs/provenance). GRASS/QGIS command parameters, HYSOGs250m alignment and per-figure scripts are not recorded (docs/MISSING_MATERIALS.md); independent end-to-end reproduction from raw data has not been demonstrated. Large data products are in the companion dataset record. Licence scope: MIT applies to source code only; supporting tables and documentation are under CC BY 4.0 (author-owned contributions only; third-party material excluded); see LICENSING.md. Not in this record: HydroRIVERS-derived Distance_River values (original values are in the separate access-restricted Zenodo record https://doi.org/10.5281/zenodo.24398548; independent regeneration scripts in scripts/regenerate_distance_river/) and OSM-derived Distance_Road values (ODbL sidecar in the dataset record); the ML scripts cannot be re-run from this record alone (see README). No blanket CC BY 4.0 applies to the mixed dataset. Produced using Copernicus WorldDEM-30 © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.",
  "related_identifiers": [
   {
    "relation": "isSupplementTo",

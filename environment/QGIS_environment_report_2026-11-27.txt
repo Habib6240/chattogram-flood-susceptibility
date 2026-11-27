@@ -1,0 +1,32 @@
+report_time: 2026-11-27T18:20:48
+QGIS_version: 3.44.12-Solothurn
+QGIS_release_name: Solothurn
+Python: 3.12.13 (main, Apr 16 2026, 15:59:38) [MSC v.1944 64 bit (AMD64)]
+OS: Windows-11-10.0.26300-SP0
+GDAL: 3.13.1
+GDAL/PROJ: unavailable: module 'osgeo.osr' has no attribute 'GetPROJVersion'
+Qt: 5.15.13
+numpy: 2.4.6
+scipy: 1.17.1
+pandas: 3.0.3
+sklearn: 1.9.1
+xgboost: 3.4.1
+rasterio: not installed in QGIS Python
+shap: not installed in QGIS Python
+GRASS_path: C:/PROGRA~1/QGIS34~1.12/apps/grass/grass85
+GRASS_version: 8.5.0
+processing_providers: 3d QGIS (3D), gdal GDAL (3.13.1), grass GRASS (8.5.0), model Models, native QGIS (native c++), pdal QGIS (PDAL), project Models embedded in the current project, qgis QGIS, quickosm QuickOSM, script Scripts
+algorithm_available grass7:r.slope.aspect: True
+algorithm_available grass:r.slope.aspect: True
+algorithm_available grass7:r.watershed: True
+algorithm_available grass:r.watershed: True
+algorithm_available grass7:r.stream.extract: True
+algorithm_available grass:r.stream.extract: True
+algorithm_available native:alignrasters: True
+algorithm_available native:linedensity: True
+algorithm_available gdal:proximity: True
+algorithm_available gdal:rastercalculator: True
+algorithm_available native:rastercalc: True
+project_file: D:/Research/Conference Paper/Fully New Work/QGIS & Here Generated File/Chittagong Project_A-Z.qgz
+history_db_candidates_found: none in profile C:/Users/User/AppData/Roaming/QGIS/QGIS3\profiles\default/
+history_rows_exported: 0
